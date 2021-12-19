@@ -1,0 +1,40 @@
+#parent{
+    border: 2px solid blue;
+    display: flex;
+    flex-direction: row;
+    width: 700px;
+    height: 300px;
+    
+}
+#kid1{
+    border: 2px solid red;
+    background: green;
+    padding: 20px;
+    margin: 10px; 
+    height: 100px;
+    flex: 1;
+}
+#kid2{
+    border: 2px solid red;
+    background: yellow;
+    padding: 20px;
+    margin: 10px;
+    height: 100px;
+    flex: 1;
+}
+#kid3{
+    border: 2px solid red;
+    background: red;
+    padding: 20px;
+    margin: 10px;
+    height: 100px;
+    flex: 1;
+}
+#kid4{
+    border: 2px solid red;
+    background: orange;
+    padding: 20px;
+    margin: 10px;
+    height: 100px;
+    flex: 1;
+}

@@ -1,0 +1,29 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+
+<html>
+<head> 
+<script type="text/javascript">
+    //properties
+    function people(name, age){
+        this.name;
+        this.age;
+        this.yearsleft = yearsLeft;
+    }
+    
+    function yearsLeft(){
+        var numYears = 65 - this.age;
+        return numYears;
+    }
+    
+    var mieszko = new people("Mieszko Kaminski", 61);
+    
+</script>
+</head>
+<body>
+<script type="text/javascript">
+
+    document.write("hello", mieszko.yearsleft());
+    
+</script>
+</body>
+</html>

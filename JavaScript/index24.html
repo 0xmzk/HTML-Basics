@@ -1,0 +1,20 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+
+<html>
+<head>
+</head>
+<body>
+<script type="text/javascript">
+    //this doesnt work
+function printTime(){
+	var now = new Date();
+	var hours = now.getHours();
+	var mins = now.getMinutes();
+	var seconds = now.getSeconds();
+	document.write(hours+":"+mins+":"+seconds"<br/>");
+    }
+    
+    set setInterval("printTime()", 1000);
+</script>
+</body>
+</html>

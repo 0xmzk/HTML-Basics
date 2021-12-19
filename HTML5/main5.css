@@ -1,0 +1,40 @@
+body{
+    text-align: center;
+    background: url(bgdotted.jpg);
+    justify-content: space-around;
+}
+header, section, footer, aside, nav, hgroup, article{
+    display: block;
+}
+#skin{
+    width: 700px;
+    margin: 10px auto;
+    padding: 5px;
+    background: #5E031F;
+    border: 5px solid black;
+    border-radius: 10px;
+}
+nav{
+    margin: 10px 0px;
+}
+#buttons{
+    float: left;
+    width: 70px;
+    height: 22px;
+}
+#defaultBar{
+    position: relative;
+    float: left;
+    width: 600px;
+    height: 16px;
+    padding: 4px;
+    border: 2px solid white;
+    border-radius: 5px;
+}
+#progressBar{
+    position: absolute;
+    width: 0px;
+    height: 16px;
+    background: #0ABF9F;
+    border-radius: 5px;
+}

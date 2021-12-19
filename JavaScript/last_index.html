@@ -1,0 +1,20 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+
+<html>
+<head>
+<script type="text/javascript">
+    function validate(){
+        if(document.form1.thebox.checked)
+            alert("Validated");
+        else
+            alert("Validation Incomplete");
+    }
+</script>
+</head>
+<body>
+<form name="form1">
+    <input type="checkbox" name="thebox"/>
+    <input type="button" value="Validate" onClick="validate()"/>
+</form>  
+</body>
+</html>
